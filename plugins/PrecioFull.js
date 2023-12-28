@@ -18,6 +18,6 @@ global.paises = `
 
 *Si Tu Pais No Aparece Preguntame Por Tu Pais 🥵 Recuerda Los Pagos Son Para El Bot Full*
 
-🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️
+👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
 `;
 
