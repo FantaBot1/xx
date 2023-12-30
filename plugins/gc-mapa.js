@@ -5,7 +5,7 @@ handler.command = /^(Mapa|mapa)$/i;
 export default handler;
 
 global.mapa = `
-*Caida*  ' Cambia Nombre Del Team '
+*Caida* 
 _Top Hackers 1ra Sala Lado Derecho_
 _Top Hackers 2da Sala Lado Izquierdo_
 
@@ -32,15 +32,14 @@ _Clan Todos En El Mismo_
 
 *Vestimenta*
 
-_(tu team) : Negro_
+_Top Hackers : Negro_
 _Rival : Blanco_
 
 *Creacion*
 
 _1ra Sala : Rival_
-_2da Sala : (Top Hackers)_
+_2da Sala : Top Hackers_
 _3ra Sala : Perdedor De 1ra_
 
-
-*By : Alacran*
+👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
 `;
