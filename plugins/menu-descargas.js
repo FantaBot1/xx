@@ -23,6 +23,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ➤ *Hola, ${taguser} Este Es El Menu De Descargas*
 
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
+ ►👻 _${usedPrefix}spotify *<txt>*_
+ ►👻 _${usedPrefix}play *<txt>*_
  ►👻 _${usedPrefix}instagram *<url>*_
  ►👻 _${usedPrefix}mediafire *<url>*_
  ►👻 _${usedPrefix}gitclone *<url>*_
