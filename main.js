@@ -108,7 +108,7 @@ loadChatgptDB();
 
 /* ------------------------------------------------*/
 
-global.authFile = `MysticSession`;
+global.authFile = `AlacranSession`;
 const {state, saveState, saveCreds} = await useMultiFileAuthState(global.authFile);
 const msgRetryCounterMap = (MessageRetryMap) => { };
 const msgRetryCounterCache = new NodeCache()
@@ -221,13 +221,13 @@ function clearTmp() {
 
 function purgeSession() {
 let prekey = []
-let directorio = readdirSync("./MysticSession")
+let directorio = readdirSync("./AlacranSession")
 let filesFolderPreKeys = directorio.filter(file => {
 return file.startsWith('pre-key-') /*|| file.startsWith('session-') || file.startsWith('sender-') || file.startsWith('app-') */
 })
 prekey = [...prekey, ...filesFolderPreKeys]
 filesFolderPreKeys.forEach(files => {
-unlinkSync(`./MysticSession/${files}`)
+unlinkSync(`./AlacranSession/${files}`)
 })
 } 
 
@@ -252,7 +252,7 @@ console.log(chalk.bold.red(`[ 👻 ] Algo salio mal durante la eliminación, arc
 }}
 
 function purgeOldFiles() {
-const directories = ['./MysticSession/', './jadibts/']
+const directories = ['./AlacranSession/', './jadibts/']
 const oneHourAgo = Date.now() - (60 * 60 * 1000)
 directories.forEach(dir => {
 readdirSync(dir, (err, files) => {
@@ -511,7 +511,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `𝗕𝗶𝗲𝗻𝘃𝗲𝗻𝗶𝗱𝗼 𝗔𝗹 𝗣𝗲𝗿𝗳𝗶𝗹 𝗗𝗲 𝗦𝗽𝗶𝗱𝗲𝗿 𝗕𝗼𝘁 🕷️`;
+  const bio = `👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
