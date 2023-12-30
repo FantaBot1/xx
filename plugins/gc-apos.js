@@ -26,4 +26,6 @@ _Propiedad de armas : no_
 _Sala Avanzada: desert, ump, m10_
 _Aidrop/Cibernetico : no_
 _1 PC máximo_
+
+👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
 `;
