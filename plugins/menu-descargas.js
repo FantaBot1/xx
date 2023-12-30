@@ -18,34 +18,33 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` 🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧🕷️
+    const str = ` 👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
     
 ➤ *Hola, ${taguser} Este Es El Menu De Descargas*
 
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►🕷️ _${usedPrefix}instagram *<url>*_
- ►🕷️ _${usedPrefix}mediafire *<url>*_
- ►🕷️ _${usedPrefix}gitclone *<url>*_
- ►🕷️ _${usedPrefix}gdrive *<url>*_
- ►🕷️ _${usedPrefix}tiktok *<url>*_
- ►🕷️ _${usedPrefix}tiktokimg *<url>*_
- ►🕷️ _${usedPrefix}xnxxdl *<url>*_
- ►🕷️ _${usedPrefix}xvideosdl *<url>*_
- ►🕷️ _${usedPrefix}twitter *<url>*_
- ►🕷️ _${usedPrefix}fb *<url>*_
- ►🕷️ _${usedPrefix}ytshort *<url>*_
- ►🕷️ _${usedPrefix}dapk2 *<url>*_
- ►🕷️ _${usedPrefix}stickerpack *<url>*_
- ►🕷️ _${usedPrefix}play *<txt>*_
- ►🕷️ _${usedPrefix}ringtone *<txt>*_
- ►🕷️ _${usedPrefix}soundcloud *<txt>*_
- ►🕷️ _${usedPrefix}img *<txt>*_
- ►🕷️ _${usedPrefix}pinterest *<txt>*_
- ►🕷️ _${usedPrefix}wallpaper *<txt>*_
- ►🕷️ _${usedPrefix}pptiktok *<user>*_
- ►🕷️ _${usedPrefix}igstalk *<user>*_
- ►🕷️ _${usedPrefix}igstory *<user>*_
- ►🕷️ _${usedPrefix}tiktokstalk *<user>*_
+ ►👻 _${usedPrefix}instagram *<url>*_
+ ►👻 _${usedPrefix}mediafire *<url>*_
+ ►👻 _${usedPrefix}gitclone *<url>*_
+ ►👻 _${usedPrefix}gdrive *<url>*_
+ ►👻 _${usedPrefix}tiktok *<url>*_
+ ►👻 _${usedPrefix}tiktokimg *<url>*_
+ ►👻 _${usedPrefix}xnxxdl *<url>*_
+ ►👻 _${usedPrefix}xvideosdl *<url>*_
+ ►👻 _${usedPrefix}twitter *<url>*_
+ ►👻 _${usedPrefix}fb *<url>*_
+ ►👻 _${usedPrefix}ytshort *<url>*_
+ ►👻 _${usedPrefix}dapk2 *<url>*_
+ ►👻 _${usedPrefix}stickerpack *<url>*_
+ ►👻 _${usedPrefix}ringtone *<txt>*_
+ ►👻 _${usedPrefix}soundcloud *<txt>*_
+ ►👻 _${usedPrefix}img *<txt>*_
+ ►👻 _${usedPrefix}pinterest *<txt>*_
+ ►👻 _${usedPrefix}wallpaper *<txt>*_
+ ►👻 _${usedPrefix}pptiktok *<user>*_
+ ►👻 _${usedPrefix}igstalk *<user>*_
+ ►👻 _${usedPrefix}igstory *<user>*_
+ ►👻 _${usedPrefix}tiktokstalk *<user>*_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
