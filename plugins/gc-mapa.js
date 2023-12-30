@@ -5,11 +5,9 @@ handler.command = /^(Mapa|mapa)$/i;
 export default handler;
 
 global.mapa = `
-*Reglas Mapa : Alcran Bot*
-
 *Caida*  ' Cambia Nombre Del Team '
-_Demons 1ra Sala Lado Derecho_
-_Demons 2da Sala Lado Izquierdo_
+_Top Hackers 1ra Sala Lado Derecho_
+_Top Hackers 2da Sala Lado Izquierdo_
 
 *Prohibido*
 
@@ -40,7 +38,7 @@ _Rival : Blanco_
 *Creacion*
 
 _1ra Sala : Rival_
-_2da Sala : (tu team)_
+_2da Sala : (Top Hackers)_
 _3ra Sala : Perdedor De 1ra_
 
 

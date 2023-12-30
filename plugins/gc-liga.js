@@ -27,5 +27,5 @@ global.liga = `
 🥷🏻 ┇ 
 🥷🏻 ┇
 
-*◤By : Alacran Bot ◢*
+👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
 `;

@@ -8,7 +8,6 @@ const handler = async (m, {conn, usedPrefix, command}) => {
 
   *Hola ${name} Deseas Donar :3*
   
-*Paypal : https://paypal.me/CristhoferRojas810?country.x=PE&locale.x=es_XC*
 *Yape : 976336831*
 *Nombre Del Yape : Mary Luz*
 

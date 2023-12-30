@@ -5,12 +5,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `🕷️ 𝗦𝗽𝗶𝗱𝗲𝗿 𝗕𝗼𝘁 / @𝗦𝗽𝗶𝗱𝗲𝗿.𝗩𝗲𝗻𝘁𝗮𝘀.𝗕𝗼𝘁 🕷️ ${pesan}`;
-  let teks = `𝗚𝗼𝗼 𝗧𝗲𝗻𝗲𝗺𝗼𝘀 𝗦𝗼𝗿𝘁𝗲𝗼𝘀 𝗖𝗵𝗶𝗰𝘅𝘀 🕷️\n\n${oi}\n\n`;
+  const oi = `👻️ 𝗦𝗽𝗶𝗱𝗲𝗿 𝗕𝗼𝘁 / @𝗦𝗽𝗶𝗱𝗲𝗿.𝗩𝗲𝗻𝘁𝗮𝘀.𝗕𝗼𝘁 👻️ ${pesan}`;
+  let teks = `𝗚𝗼𝗼 𝗧𝗲𝗻𝗲𝗺𝗼𝘀 𝗦𝗼𝗿𝘁𝗲𝗼𝘀 𝗖𝗵𝗶𝗰𝘅𝘀 👻️\n\n${oi}\n\n`;
   for (const mem of participants) {
-    teks += `ִ໋🕷️ ➢ @${mem.id.split('@')[0]}\n`;
+    teks += `ִ໋👻️ ➢ @${mem.id.split('@')[0]}\n`;
   }
-  teks += `\n 🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️`;
+  teks += `\n 👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];

@@ -1,5 +1,5 @@
 const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, isROwner}) => {
-const optionsFull = `🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️\n 
+const optionsFull = `👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻\n 
 👻 *Opción:* ✨ | WELCOME
 👻 *Comando:* ${usedPrefix + command} welcome
 👻 *Descripción:* Activa o desactiva la bienvenida en el grupo.
@@ -467,7 +467,7 @@ const optionsFull = `🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️\n
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️\n\n 𝗟𝗮 𝗙𝘂𝗻𝗰𝗶𝗼𝗻 *${type}* 𝗙𝘂𝗲  ${isEnable ? '𝗔𝗰𝘁𝗶𝘃𝗮𝗱𝗼' : '𝗗𝗲𝘀𝗮𝗰𝘁𝗶𝘃𝗮𝗱𝗼'} 𝗖𝗼𝗿𝗿𝗲𝗰𝘁𝗮𝗺𝗲𝗻𝘁𝗲 𝗘𝗻 𝗘𝗹  ${isAll ? '𝗕𝗼𝘁' : isUser ? '' : '𝗚𝗿𝘂𝗽𝗼'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻\n\n 𝗟𝗮 𝗙𝘂𝗻𝗰𝗶𝗼𝗻 *${type}* 𝗙𝘂𝗲  ${isEnable ? '𝗔𝗰𝘁𝗶𝘃𝗮𝗱𝗼' : '𝗗𝗲𝘀𝗮𝗰𝘁𝗶𝘃𝗮𝗱𝗼'} 𝗖𝗼𝗿𝗿𝗲𝗰𝘁𝗮𝗺𝗲𝗻𝘁𝗲 𝗘𝗻 𝗘𝗹  ${isAll ? '𝗕𝗼𝘁' : isUser ? '' : '𝗚𝗿𝘂𝗽𝗼'}`}, {quoted: m});
   //conn.sendMessage(m.chat, {text: `▢ *Opción:* ${type}\n\n▢ *Estado:* ${isEnable ? 'Activado' : 'Desactivado'}\n\n▢ *Para* ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`}, {quoted: m});
 };
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;

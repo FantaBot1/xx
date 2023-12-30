@@ -3,13 +3,13 @@ import fetch from 'node-fetch';
 const handler = async (m, {conn, command}) => {
   if (command === 'consejo') {
     const consejo = consejos[Math.floor(Math.random() * consejos.length)];
-    const mensaje = `╭─◆────◈🤖 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 🤖◈─────◆─╮\n\n⠀⠀🌟 *Consejo del día* 🌟\n\n❥ ${consejo}\n\n╰─◆────◈🤖 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 🤖◈─────◆─╯`;
+    const mensaje = `╭─◆────◈👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻◈─────◆─╮\n\n⠀⠀🌟 *Consejo del día* 🌟\n\n❥ ${consejo}\n\n╰─◆────◈👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻◈─────◆─╯`;
     await m.reply(mensaje);
   }
 
   if (command === 'fraseromantica') {
     const frase_romantica = frasesromanticas[Math.floor(Math.random() * frasesromanticas.length)];
-    const mensaje = `╭─◆────◈🤖 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 🤖◈─────◆─╮\n\n⠀⠀💖 *Frase romántica* 💖\n\n❥ ${frase_romantica}\n\n╰─◆────◈🤖 𝗢𝗡𝗟𝗬 𝗕𝗢𝗧 🤖◈─────◆─╯`;
+    const mensaje = `╭─◆────◈👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻◈─────◆─╮\n\n⠀⠀💖 *Frase romántica* 💖\n\n❥ ${frase_romantica}\n\n╰─◆────◈👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻◈─────◆─╯`;
     await m.reply(mensaje);
   }
 
