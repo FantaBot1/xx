@@ -18,37 +18,37 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` 🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧🕷️
+    const str = ` 👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
     
-➤ *Hola, ${taguser} Este Es El Menu De Stickers 🕷*
+➤ *Hola, ${taguser} Este Es El Menu De Stickers 👻*
 
  ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►🕷️ _${usedPrefix}sticker *<responder a img o video>*_
- ►🕷️ _${usedPrefix}sticker *<url>*_
- ►🕷️ _${usedPrefix}sticker2 *<responder a img o video>*_
- ►🕷️ _${usedPrefix}sticker2 *<url>*_
- ►🕷️ _${usedPrefix}s *<responder a img o video>*_
- ►🕷️ _${usedPrefix}s *<url>*_
- ►🕷️ _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
- ►🕷️ _${usedPrefix}scircle *<img>*_
- ►🕷️ _${usedPrefix}sremovebg *<img>*_
- ►🕷️ _${usedPrefix}semoji *<tipo> <emoji>*_
- ►🕷️ _${usedPrefix}qc *<txt>*_
- ►🕷️ _${usedPrefix}attp *<txt>*_
- ►🕷️ _${usedPrefix}attp2 *<txt>*_
- ►🕷️ _${usedPrefix}attp3 *<txt>*_
- ►🕷️ _${usedPrefix}ttp *<txt>*_
- ►🕷️ _${usedPrefix}ttp2 *<txt>*_
- ►🕷️ _${usedPrefix}ttp3 *<txt>*_
- ►🕷️ _${usedPrefix}ttp4 *<txt>*_
- ►🕷️ _${usedPrefix}ttp5 *<txt>*_
- ►🕷️ _${usedPrefix}pat *<@tag>*_
- ►🕷️ _${usedPrefix}slap *<@tag>*_
- ►🕷️ _${usedPrefix}kiss *<@tag>*_
- ►🕷️ _${usedPrefix}dado_
- ►🕷️ _${usedPrefix}wm *<packname> <autor>*_
- ►🕷️ _${usedPrefix}stickermarker *<efecto> <img>*_
- ►🕷️ _${usedPrefix}stickerfilter *<efecto> <img>*_
+ ►👻 _${usedPrefix}sticker *<responder a img o video>*_
+ ►👻 _${usedPrefix}sticker *<url>*_
+ ►👻 _${usedPrefix}sticker2 *<responder a img o video>*_
+ ►👻 _${usedPrefix}sticker2 *<url>*_
+ ►👻 _${usedPrefix}s *<responder a img o video>*_
+ ►👻 _${usedPrefix}s *<url>*_
+ ►👻 _${usedPrefix}emojimix *<emoji 1>&<emoji 2>*_
+ ►👻 _${usedPrefix}scircle *<img>*_
+ ►👻 _${usedPrefix}sremovebg *<img>*_
+ ►👻 _${usedPrefix}semoji *<tipo> <emoji>*_
+ ►👻 _${usedPrefix}qc *<txt>*_
+ ►👻 _${usedPrefix}attp *<txt>*_
+ ►👻 _${usedPrefix}attp2 *<txt>*_
+ ►👻 _${usedPrefix}attp3 *<txt>*_
+ ►👻 _${usedPrefix}ttp *<txt>*_
+ ►👻 _${usedPrefix}ttp2 *<txt>*_
+ ►👻 _${usedPrefix}ttp3 *<txt>*_
+ ►👻 _${usedPrefix}ttp4 *<txt>*_
+ ►👻 _${usedPrefix}ttp5 *<txt>*_
+ ►👻 _${usedPrefix}pat *<@tag>*_
+ ►👻 _${usedPrefix}slap *<@tag>*_
+ ►👻 _${usedPrefix}kiss *<@tag>*_
+ ►👻 _${usedPrefix}dado_
+ ►👻 _${usedPrefix}wm *<packname> <autor>*_
+ ►👻 _${usedPrefix}stickermarker *<efecto> <img>*_
+ ►👻 _${usedPrefix}stickerfilter *<efecto> <img>*_
 ┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
