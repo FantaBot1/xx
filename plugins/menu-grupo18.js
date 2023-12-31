@@ -18,42 +18,42 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = ` ? ????????? ??? ?
+    const str = ` 👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
     
-? *Hola, ${taguser} Este Es El Menu De Grupos ðŸ•·*
+➤ *Hola, ${taguser} Aca Estan Los Comandos Del Menu Grupo 👻*
 
-©³©¥©¥¨T¨T¨T¨T¨T?? ? ??¨T¨T¨T¨T¨T©¥©¥©·
- ?? _${usedPrefix}Comunidad *<Invocar>*_
- ?? _${usedPrefix}Sorteos *<Invocar>*_
- ?? _${usedPrefix}Dinamicas *<Invocar>*_
- ?? _${usedPrefix}Vs *<Invocar>*_
- ?? _${usedPrefix}kick *<@tag>*_
- ?? _${usedPrefix}kick2 *<@tag>*_
- ?? _${usedPrefix}listanum *<txt>*_
- ?? _${usedPrefix}kicknum *<txt>*_
- ?? _${usedPrefix}grupo *<abrir / cerrar>*_
- ?? _${usedPrefix}grouptime *<opcion> <tiempo>*_
- ?? _${usedPrefix}promote *<@tag>*_
- ?? _${usedPrefix}demote *<@tag>*_
- ?? _${usedPrefix}infogroup_
- ?? _${usedPrefix}resetlink_
- ?? _${usedPrefix}link_
- ?? _${usedPrefix}setname *<txt>*_
- ?? _${usedPrefix}setdesc *<txt>*_
- ?? _${usedPrefix}todos *<Invocar>*_
- ?? _${usedPrefix}setwelcome *<txt>*_
- ?? _${usedPrefix}setbye *<txt>*_
- ?? _${usedPrefix}hidetag *<txt>*_
- ?? _${usedPrefix}hidetag *<audio>*_
- ?? _${usedPrefix}hidetag *<video>*_
- ?? _${usedPrefix}hidetag *<img>*_
- ?? _${usedPrefix}warn *<@tag>*_
- ?? _${usedPrefix}unwarn *<@tag>*_
- ?? _${usedPrefix}listwarn_
- ?? _${usedPrefix}fantasmas_
- ?? _${usedPrefix}setpp *<img>*_
- ?? _admins *<txt>*_ (sin prefijo)
-©Ç©¥©¥¨T¨T¨T¨T¨T?? ? ??¨T¨T¨T¨T¨T©¥©¥©¿``.trim();
+┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
+ ►👻 _${usedPrefix}Comunidad *<Invocar>*_
+ ►👻 _${usedPrefix}Sorteos *<Invocar>*_
+ ►👻 _${usedPrefix}Dinamicas *<Invocar>*_
+ ►👻 _${usedPrefix}Vs *<Invocar>*_
+ ►👻 _${usedPrefix}kick *<@tag>*_
+ ►👻 _${usedPrefix}kick2 *<@tag>*_
+ ►👻 _${usedPrefix}listanum *<txt>*_
+ ►👻 _${usedPrefix}kicknum *<txt>*_
+ ►👻 _${usedPrefix}grupo *<abrir / cerrar>*_
+ ►👻 _${usedPrefix}grouptime *<opcion> <tiempo>*_
+ ►👻 _${usedPrefix}promote *<@tag>*_
+ ►👻 _${usedPrefix}demote *<@tag>*_
+ ►👻 _${usedPrefix}infogroup_
+ ►👻 _${usedPrefix}resetlink_
+ ►👻 _${usedPrefix}link_
+ ►👻 _${usedPrefix}setname *<txt>*_
+ ►👻 _${usedPrefix}setdesc *<txt>*_
+ ►👻 _${usedPrefix}todos *<Invocar>*_
+ ►👻 _${usedPrefix}setwelcome *<txt>*_
+ ►👻 _${usedPrefix}setbye *<txt>*_
+ ►👻 _${usedPrefix}hidetag *<txt>*_
+ ►👻 _${usedPrefix}hidetag *<audio>*_
+ ►👻 _${usedPrefix}hidetag *<video>*_
+ ►👻 _${usedPrefix}hidetag *<img>*_
+ ►👻 _${usedPrefix}warn *<@tag>*_
+ ►👻 _${usedPrefix}unwarn *<@tag>*_
+ ►👻 _${usedPrefix}listwarn_
+ ►👻 _${usedPrefix}fantasmas_
+ ►👻 _${usedPrefix}setpp *<img>*_
+ ►👻 _admins *<txt>*_ (sin prefijo)
+┣━━═════⊰⊱ ⬛ ⊰⊱═════━━┛`.trim();
     if (m.isGroup) {
       // await conn.sendFile(m.chat, vn, 'menu.mp3', null, m, true, { type: 'audioMessage', ptt: true})
       const fkontak2 = {'key': {'participants': '0@s.whatsapp.net', 'remoteJid': 'status@broadcast', 'fromMe': false, 'id': 'Halo'}, 'message': {'contactMessage': {'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}, 'participant': '0@s.whatsapp.net'};
