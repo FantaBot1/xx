@@ -8,7 +8,7 @@ global.apos = `
 *☠ TOP HACKERS ☠*
 
 *➤ REGLAS APOSTADO*
-*HABILIDAD A. :* _ Alok_
+*HABILIDAD A. :* _Alok_
 *HABILIDADES P. :*  _Maxim , Kelly y Moco_
 *Armas :*  _Ump , 1 M1014 Por Equipo Y Desert_
 
