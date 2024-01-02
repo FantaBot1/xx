@@ -1536,10 +1536,10 @@ global.dfail = (type, m, conn) => {
     premium: '*[ 🕷️ ] Si No Eres Usuario Vip Olvidate De Este Comando XD.*',
     group: '*[ 🕷️ ] Solo Apto Para Grupps Mij@*',
     private: '*[ 🕷️ ] Este Comando Solo Se Puede Usar En El Chat Privadp Del Bot*',
-    admin: '*[ 🕷️ ] Solo Puede Ser Usado Por Admins Bldx*',
+    admin: '*[ 🕷️ ]*  @user *Este Comando Solo Esta Permitido Para Los Admins',
     botAdmin: '*[ 🕷️ ] Es Necesario Que El Mas Guapo Osea Yo Tenga Admin*',
     unreg: '*[ 🕷️ ] Debes Estar Registrado Primerx*\n\n*[ 🕷️ ] Utiliza el comando:* _/verificar nombre.edad_ *para registrarte.*',
-    restrict: '*[ 🕷️ ] Este Comando Fie Desactivado Por El Mas Guapo*',
+    restrict: '*[ 🕷️ ] Lo Siento El Comando No Esta Activado*',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️', body: '🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️', thumbnail: imagen1, sourceUrl: 'https://instagram.com/spider.ventas.bot'}}}}, aa);
