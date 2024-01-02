@@ -1530,13 +1530,13 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[  🕷️ ] Ey Paraaaa Pndjx Este Comando Solo Lo Usan Los Owners*',
-    owner: '*[ 🕷️ ] Paraaa Este Comando Solo Puede Ser Usado Por El Mas Guapo Osea Yo*',
+    rowner: '*[  🕷️ ] Si No Eres Owner , Olvidate De Este Comando Jaja*',
+    owner: '*[ 🕷️ ] Solo Yo Lo Puedo Usar Lo Siento*',
     mods: '*[ 🕷️ ] Este Comando Solo Puede Ser Usado Por Admins Y El Bot.*',
     premium: '*[ 🕷️ ] Si No Eres Usuario Vip Olvidate De Este Comando XD.*',
-    group: '*[ 🕷️ ] Solo Apto Para Grupps Mij@*',
-    private: '*[ 🕷️ ] Este Comando Solo Se Puede Usar En El Chat Privadp Del Bot*',
-    admin: '*[ 🕷️ ]*  @user *Este Comando Solo Esta Permitido Para Los Admins',
+    group: '*[ 🕷️ ] Solo Sirve Para Los Grupos*',
+    private: '*[ 🕷️ ] Este Comando Solo Se Puede Usar En El Chat Privado Del Bot*',
+    admin: '*[ 🕷️ ] Este Comando Solo Esta Permitido Para Los Admins*',
     botAdmin: '*[ 🕷️ ] Es Necesario Que El Mas Guapo Osea Yo Tenga Admin*',
     unreg: '*[ 🕷️ ] Debes Estar Registrado Primerx*\n\n*[ 🕷️ ] Utiliza el comando:* _/verificar nombre.edad_ *para registrarte.*',
     restrict: '*[ 🕷️ ] Lo Siento El Comando No Esta Activado*',
