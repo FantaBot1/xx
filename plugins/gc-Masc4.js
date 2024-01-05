@@ -8,23 +8,27 @@ handler.group = true
 handler.botAdmin = true
 
 global.Masc4 = `
-𝟰 𝗩𝗘𝗥𝗦𝗨𝗦 𝟰
+*VERSUS MIXTO*
 
-𝐇𝐎𝐑𝐀𝐑𝐈𝐎
-🇵🇪 𝐏𝐄𝐑𝐔 : 
-🇦🇷 𝐀𝐑𝐆𝐄𝐍𝐓𝐈𝐍𝐀 :
-🇨🇱 𝐂𝐇𝐈𝐋𝐄 : 
-¬ 𝐉𝐔𝐆𝐀𝐃𝐎𝐑𝐄𝐒 𝐏𝐑𝐄𝐒𝐄𝐍𝐓𝐄𝐒
+*HORARIO*
+*🇵🇪 PERU :*
+*🇦🇷 ARGENTINA :*
+*🇨🇱 CHILE :*
 
-👻 ┇  
-👻 ┇ 
-👻 ┇ 
-👻 ┇ 
+🥷🏻┇
+🌸┇
+🥷🏻┇
+🌸┇
 
-ㅤʚ 𝐒𝐔𝐏𝐋𝐄𝐍𝐓𝐄:
+*SUPLENTES*
 
-👻 ┇ 
-👻 ┇ 
+🥷🏻┇
+🌸┇
 
-👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
+*DONADOR/RA DE SALA*
+
+ 🥷🏻 - 🌸┇
+
+
+*LISTA TH MIXTO*
 `;
