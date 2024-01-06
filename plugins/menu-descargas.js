@@ -23,8 +23,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 ➤ *Hola, ${taguser} Este Es El Menu De Descargas*
 
 ┏━━═════⊰⊱ ⬛ ⊰⊱═════━━┓
- ►👻 _${usedPrefix}spotify *<txt>*_
- ►👻 _${usedPrefix}play *<txt>*_
  ►👻 _${usedPrefix}instagram *<url>*_
  ►👻 _${usedPrefix}mediafire *<url>*_
  ►👻 _${usedPrefix}gitclone *<url>*_
@@ -39,7 +37,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  ►👻 _${usedPrefix}dapk2 *<url>*_
  ►👻 _${usedPrefix}stickerpack *<url>*_
  ►👻 _${usedPrefix}ringtone *<txt>*_
- ►👻 _${usedPrefix}soundcloud *<txt>*_
+ ►👻 _${usedPrefix}play *<txt>*_
  ►👻 _${usedPrefix}img *<txt>*_
  ►👻 _${usedPrefix}pinterest *<txt>*_
  ►👻 _${usedPrefix}wallpaper *<txt>*_
