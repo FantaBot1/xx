@@ -15,7 +15,7 @@ const handler = async (m, {conn, text}) => {
     const res2 = await fetch(`https://api.akuari.my.id/downloader/scdl?link=${permalinkUrl}`);
     const json = await res2.json();
     const shortUrl = await (await fetch(`https://tinyurl.com/api-create.php?url=${json.link}`)).text();
-    const soundcloudt = `👻 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬 𝐅𝐚𝐧𝐭𝐚𝐬𝐦𝐢𝐧\n👻 𝗧𝗶𝘁𝘂𝗹𝗼 : ${json.title}\n👻 𝗟𝗶𝗻𝗸 : ${shortUrl}\n👻 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 𝗦𝘂 𝗠𝘂𝘀𝗶𝗰𝗮 𝗘𝘀𝘁𝗮 𝗦𝗶𝗲𝗻𝗱𝗼 𝗘𝗻𝘃𝗶𝗮𝗱𝗮\n👻 𝗕𝘆𝗲 𝗕𝘆𝗲\n`;
+    const soundcloudt = `👻 𝐃𝐞𝐬𝐜𝐚𝐫𝐠𝐚𝐬 𝐅𝐚𝐧𝐭𝐚𝐬𝐦𝐢𝐧\n\n👻 𝗧𝗶𝘁𝘂𝗹𝗼 : *${json.title}*\n\n👻 𝗟𝗶𝗻𝗸 : *${shortUrl}*\n\n👻 𝗘𝘀𝗽𝗲𝗿𝗲 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼 𝗦𝘂 𝗠𝘂𝘀𝗶𝗰𝗮 𝗘𝘀𝘁𝗮 𝗦𝗶𝗲𝗻𝗱𝗼 𝗘𝗻𝘃𝗶𝗮𝗱𝗮\n\n👻 𝗕𝘆𝗲 𝗕𝘆𝗲\n`;
     await conn.sendFile(m.chat, json.thumb, '', soundcloudt, m);
     await conn.sendMessage(m.chat, {audio: {url: json.link}, fileName: `${json.title}.mp3`, mimetype: 'audio/mpeg'}, {quoted: m});
   } catch {
