@@ -6,7 +6,7 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
   }
   const pesan = args.join` `;
   const oi = `@𝐎𝐩𝐭𝐢𝐦𝐮𝐬.𝐕𝐞𝐧𝐭𝐚𝐬.𝐁𝐨𝐭${pesan}`;
-  let teks = `𝐎𝐩𝐭𝐢𝐦𝐮𝐬 𝐀𝐯𝐢𝐬𝐚 𝐐𝐮𝐞 𝐇𝐚𝐲 𝐕𝐞𝐫𝐬𝐮𝐬 𝐏𝐥𝐚𝐧𝐭𝐢𝐭𝐚 ☠️\n\n${oi}\n\n`;
+  let teks = `𝐎𝐩𝐭𝐢𝐦𝐮𝐬 𝐀𝐯𝐢𝐬𝐚 𝐐𝐮𝐞 𝐇𝐚𝐲 𝐕𝐞𝐫𝐬𝐮𝐬 𝐏𝐥𝐚𝐧𝐭𝐢𝐭𝐚 🌱 \n\n${oi}\n\n`;
   for (const mem of participants) {
     teks += `ִ໋ღ ➤ @${mem.id.split('@')[0]}\n`;
   }
