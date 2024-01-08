@@ -467,7 +467,7 @@ const optionsFull = `〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕\n
       if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, {text: optionsFull}, {quoted: m});
       throw false;
   }
-  conn.sendMessage(m.chat, {text: `ღ *Opción:* ${type}\n\nღ *Estado:* ${isEnable ? 'Activado' : 'Desactivado'}\n\nღ *Para* ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`}, {quoted: m});
+  conn.sendMessage(m.chat, {text: `ღ *BOT:* 𝗢𝗽𝘁𝗶𝗺𝘂𝘀\n\nღ *Opción:* ${type}\n\nღ *Estado:* ${isEnable ? 'Activado' : 'Desactivado'}\n\nღ *Para* ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`}, {quoted: m});
   //conn.sendMessage(m.chat, {text: `▢ *Opción:* ${type}\n\n▢ *Estado:* ${isEnable ? 'Activado' : 'Desactivado'}\n\n▢ *Para* ${isAll ? 'este bot' : isUser ? '' : 'este chat'}`}, {quoted: m});
 };
 handler.command = /^((en|dis)able|(tru|fals)e|(turn)?[01])$/i;
