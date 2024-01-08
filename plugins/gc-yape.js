@@ -6,7 +6,9 @@ export default handler;
 
 global.yape = ` 〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
 
-*Hola ${taguser} Si Deseas Comprar El Bot Full El Yape Es :*
+ ${taguser}
+ 
+*Hola Si Deseas Comprar El Bot Full El Yape Es :*
 
 *Yape :* 926 933 818
 *Nombre : Luis Alberto*
