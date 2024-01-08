@@ -9,7 +9,7 @@ const handler = async (m, {isPrems, conn}) => {
   const expp = Math.floor(Math.random() * 5000);
 
   global.db.data.users[m.sender].limit += dia;
-  global.db.data.users[m.sender].money += spider;
+  global.db.data.users[m.sender].money += mystic;
   global.db.data.users[m.sender].joincount += tok;
   global.db.data.users[m.sender].exp += expp;
 
@@ -19,7 +19,7 @@ const handler = async (m, {isPrems, conn}) => {
 ║┈┈┈┈┈┈┈┈┈┈┈┈┈
 ║➢ *${dia} Diamantes* 💎
 ║➢ *${tok} Tokens* 🪙
-║➢ *${mystic} ºFantasminCoins* 👾
+║➢ *${mystic} OptimusCoins* 👾
 ║➢ *${expp} Exp* ⚡
 ╚═════════════════⬣`;
 
