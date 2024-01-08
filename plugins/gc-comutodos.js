@@ -5,12 +5,12 @@ const handler = async (m, {isOwner, isAdmin, conn, text, participants, args, com
     throw false;
   }
   const pesan = args.join` `;
-  const oi = `𝙎𝙞 𝘿𝙚𝙨𝙚𝙖𝙨 𝙀𝙡 𝘽𝙤𝙩 𝘾𝙤𝙢𝙥𝙧𝙖 𝘾𝙤𝙣 wa.me/51937305486${pesan}`;
-  let teks = `𝗚𝗼𝗼 𝗧𝗲𝗻𝗲𝗺𝗼𝘀 𝗟𝗶𝗴𝗮𝘀 , 𝗦𝗰𝗿𝗶𝗺𝘀 , 𝗧𝗿𝗲𝗶𝗻𝗼𝘀 𝗔𝗰𝘁𝗶𝘃𝗮𝘁𝗲𝗲 👻 \n\n${oi}\n\n`;
+  const oi = `@𝗢𝗽𝘁𝗶𝗺𝘂𝘀.𝗩𝗲𝗻𝘁𝗮𝘀.𝗕𝗼𝘁${pesan}`;
+  let teks = `𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗔𝘃𝗶𝘀𝗮 𝗤𝘂𝗲 𝗛𝗮𝘆 𝗟𝗶𝗴𝗮𝘀 , 𝗦𝗰𝗿𝗶𝗺 𝗘𝘁𝗰 𝗣𝗹𝗮𝗻𝘁𝗶𝘁𝗮 🌱 \n\n${oi}\n\n`;
   for (const mem of participants) {
-    teks += `ִ໋👻 ➢ @${mem.id.split('@')[0]}\n`;
+    teks += `ִ໋ღ ➤ @${mem.id.split('@')[0]}\n`;
   }
-  teks += `\n 👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻`;
+  teks += `\n 〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕`;
   conn.sendMessage(m.chat, {text: teks, mentions: participants.map((a) => a.id)} );
 };
 handler.help = ['tagall <mesaje>', 'invocar <mesaje>'];
