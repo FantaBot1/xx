@@ -46,5 +46,5 @@ _• Reclamos Con Pruebas Claras (Foto o Vídeo)_
 _• 10 minutos De Tolerancia x Cada Sala_
 _• Cancelar 2Hs Antes Sino Versus Ganado_
 
-👻 𝗙𝗔𝗡𝗧𝗔𝗦𝗠𝗜𝗡 𝗕𝗢𝗧 👻
+〔 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗕𝗼𝘁 〕
 `;
