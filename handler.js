@@ -1530,16 +1530,16 @@ let date = d.toLocaleDateString('es', { day: 'numeric', month: 'long', year: 'nu
 
 global.dfail = (type, m, conn) => {
   const msg = {
-    rowner: '*[  🕷️ ] Si No Eres Owner , Olvidate De Este Comando Jaja*',
-    owner: '*[ 🕷️ ] Solo Yo Lo Puedo Usar Lo Siento*',
-    mods: '*[ 🕷️ ] Este Comando Solo Puede Ser Usado Por Admins Y El Bot.*',
-    premium: '*[ 🕷️ ] Si No Eres Usuario Vip Olvidate De Este Comando XD.*',
-    group: '*[ 🕷️ ] Solo Sirve Para Los Grupos*',
-    private: '*[ 🕷️ ] Este Comando Solo Se Puede Usar En El Chat Privado Del Bot*',
-    admin: '*[ 🕷️ ] Este Comando Solo Esta Permitido Para Los Admins*',
-    botAdmin: '*[ 🕷️ ] Es Necesario Que El Mas Guapo Osea Yo Tenga Admin*',
-    unreg: '*[ 🕷️ ] Debes Estar Registrado Primerx*\n\n*[ 🕷️ ] Utiliza el comando:* _/verificar nombre.edad_ *para registrarte.*',
-    restrict: '*[ 🕷️ ] Lo Siento El Comando No Esta Activado*',
+    rowner: '𝗡𝗲𝗰𝗲𝘀𝗶𝘁𝗮𝘀 𝗦𝗲𝗿 𝗢𝘄𝗻𝗲𝗿 𝗗𝗲𝗹 𝗕𝗼𝘁 𝗙  ღ',
+    owner: '𝗟𝗼 𝗦𝗶𝗲𝗻𝘁𝗼 𝗦𝗼𝗹𝗼 𝗘𝗹 𝗣𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗼 𝗗𝗲 𝗢𝗽𝘁𝗶𝗺𝘂𝘀 𝗟𝗼 𝗣𝘂𝗲𝗱𝗲 𝗨𝘀𝗮𝗿  ღ',
+    mods: '𝗣𝗲𝗿𝗺𝗶𝘁𝗶𝗱𝗼 𝗣𝗮𝗿𝗮 𝗔𝗱𝗺𝗶𝗻𝘀 𝗗𝗲𝗹 𝗚𝗿𝘂𝗽𝗼 𝗬 𝗢𝘄𝗻𝗲𝗿 𝗗𝗲𝗹 𝗕𝗼𝘁  ღ',
+    premium: '𝗦𝗶 𝗡𝗼 𝗘𝗿𝗲𝘀 𝗨𝘀𝘂𝗮𝗿𝗶𝗼 𝗩𝗶𝗽 𝗢𝗹𝘃𝗶𝗱𝗮𝘁𝗲 𝗗𝗲 𝗘𝘀𝘁𝗲 𝗖𝗼𝗺𝗮𝗻𝗱𝗼  ღ',
+    group: '𝗦𝗼𝗹𝗼 𝗦𝗶𝗿𝘃𝗲 𝗣𝗮𝗿𝗮 𝗟𝗼𝘀 𝗚𝗿𝘂𝗽𝗼𝘀  ღ',
+    private: '𝗘𝘀𝘁𝗲 𝗖𝗼𝗺𝗮𝗻𝗱𝗼 𝗦𝗼𝗹𝗼 𝗦𝗲 𝗣𝘂𝗲𝗱𝗲 𝗨𝘀𝗮𝗿 𝗘𝗻 𝗘𝗹 𝗖𝗵𝗮𝘁 𝗣𝗿𝗶𝘃𝗮𝗱𝗼 𝗗𝗲𝗹 𝗕𝗼𝘁  ღ',
+    admin: '𝗘𝘀𝘁𝗲 𝗖𝗼𝗺𝗮𝗻𝗱𝗼 𝗦𝗼𝗹𝗼 𝗘𝘀𝘁𝗮 𝗣𝗲𝗿𝗺𝗶𝘁𝗶𝗱𝗼 𝗣𝗮𝗿𝗮 𝗟𝗼𝘀 𝗔𝗱𝗺𝗶𝗻𝘀  ღ',
+    botAdmin: '𝗘𝘀 𝗡𝗲𝗰𝗲𝘀𝗮𝗿𝗶𝗼 𝗤𝘂𝗲 𝗘𝗹 𝗠𝗮𝘀 𝗚𝘂𝗮𝗽𝗼 𝗢𝘀𝗲𝗮 𝗬𝗼 𝗧𝗲𝗻𝗴𝗮 𝗔𝗱𝗺𝗶𝗻  ღ',
+    unreg: '𝗗𝗲𝗯𝗲𝘀 𝗘𝘀𝘁𝗮𝗿 𝗥𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝗱𝗼 𝗣𝗿𝗶𝗺𝗲𝗿𝗼  𝗨𝘁𝗶𝗹𝗶𝘇𝗮 𝗲𝗹 𝗰𝗼𝗺𝗮𝗻𝗱𝗼 : /𝘃𝗲𝗿𝗶𝗳𝗶𝗰𝗮𝗿 𝗻𝗼𝗺𝗯𝗿𝗲.𝗲𝗱𝗮𝗱 𝗽𝗮𝗿𝗮 𝗿𝗲𝗴𝗶𝘀𝘁𝗿𝗮𝗿𝘁𝗲  ღ',
+    restrict: '𝗟𝗼 𝗦𝗶𝗲𝗻𝘁𝗼 𝗘𝗹 𝗖𝗼𝗺𝗮𝗻𝗱𝗼 𝗡𝗼 𝗘𝘀𝘁𝗮 𝗔𝗰𝘁𝗶𝘃𝗮𝗱𝗼  ღ',
   }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
   const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️', body: '🕷️ 𝗦𝗣𝗜𝗗𝗘𝗥 𝗕𝗢𝗧 🕷️', thumbnail: imagen1, sourceUrl: 'https://instagram.com/spider.ventas.bot'}}}}, aa);
